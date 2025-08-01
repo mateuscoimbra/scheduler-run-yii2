@@ -55,7 +55,7 @@ $schedule->command('migrate')->daily();
 Use o método `exec()` para agendar qualquer comando do sistema operacional.
 
 ```php
-$schedule->exec('php /var/www/seu-projeto/artisan queue:work')->everyMinute();
+$schedule->exec('php /var/www/seu-projeto/yii queue/work')->everyMinute();
 ```
 
 ### 3\. Funções Anônimas (Closures)
@@ -107,13 +107,6 @@ Sinta-se à vontade para contribuir\! Abra uma issue ou um pull request no nosso
 ```
 
 ---
-
-### **Próximos Passos**
-
-1.  **Crie o projeto e os arquivos:** Siga a estrutura de diretórios e crie os arquivos com os conteúdos que forneci.
-2.  **Rode `composer install`:** No terminal, no diretório raiz do seu projeto (`scheduler-run-yii2`), execute `composer install`. Isso instalará a dependência `cron-expression`.
-3.  **Publique no GitHub:** Crie um repositório no GitHub e envie seu código. Isso permitirá que outras pessoas usem sua biblioteca.
-4.  **Publique no Packagist:** Depois de ter seu repositório no GitHub, você pode submeter o pacote para o Packagist, tornando-o fácil de ser instalado com `composer require`.
 
 Com essa estrutura e documentação, você terá uma base sólida para um projeto open-source que, com certeza, será muito útil para a comunidade Yii2! Se tiver mais alguma dúvida, pode perguntar.
 ```
