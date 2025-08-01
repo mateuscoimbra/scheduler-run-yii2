@@ -108,5 +108,5 @@ Sinta-se à vontade para contribuir\! Abra uma issue ou um pull request no nosso
 
 ---
 
-Com essa estrutura e documentação, você terá uma base sólida para um projeto open-source que, com certeza, será muito útil para a comunidade Yii2! Se tiver mais alguma dúvida, pode perguntar.
+Essa estrutura e documentação, tem uma base sólida para um projeto open-source que, com certeza, será muito útil para a comunidade Yii2! Salve yii2.
 ```
