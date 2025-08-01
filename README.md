@@ -7,7 +7,7 @@ Uma biblioteca de agendamento de tarefas simples e poderosa para o Yii2, inspira
 A forma mais fácil de instalar a biblioteca é usando o Composer.
 
 ```bash
-composer require sua-lib/scheduler-run-yii2
+composer require mateuscoimbra/scheduler-run-yii2
 ````
 
 ## Configuração
