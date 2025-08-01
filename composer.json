@@ -1,5 +1,5 @@
 {
-    "name": "sua-lib/scheduler-run-yii2",
+    "name": "mateuscoimbra/scheduler-run-yii2",
     "type": "library",
     "description": "A Laravel-like scheduler for Yii2 framework.",
     "keywords": ["yii2", "scheduler", "cron", "task scheduler"],
