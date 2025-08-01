@@ -22,8 +22,8 @@ Após a instalação, você precisa configurar o componente e o controller na su
     'components' => [
         // ... outros componentes
         'scheduler' => [
-            'class' => \SuaLib\SchedulerRunYii2\components\Scheduler::class,
-            'schedule' => function (\SuaLib\SchedulerRunYii2\schedule\Schedule $schedule) {
+            'class' => \mateuscoimbra\SchedulerRunYii2\components\Scheduler::class,
+            'schedule' => function (\mateuscoimbra\SchedulerRunYii2\schedule\Schedule $schedule) {
                 // Defina suas tarefas aqui!
             }
         ],
@@ -34,7 +34,7 @@ Após a instalação, você precisa configurar o componente e o controller na su
 
     ```php
     'controllerMap' => [
-        'schedule' => \SuaLib\SchedulerRunYii2\console\controllers\ScheduleController::class,
+        'schedule' => \mateuscoimbra\SchedulerRunYii2\console\controllers\ScheduleController::class,
     ],
     ```
 
